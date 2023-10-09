@@ -1,0 +1,23 @@
+.layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.total-expenses{
+    margin: 0;
+}
+
+.expenses-details{
+    padding: 0;
+    font-family: Roboto;
+}
+
+.list-header{
+    margin-top: 0;
+    font-weight: 500;
+}
+
+.list-item{
+    margin-left: 3rem;
+    font-weight: 300;
+}

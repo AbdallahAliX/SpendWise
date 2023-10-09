@@ -11,7 +11,7 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <div className='body'>
+        <div className='content-body'>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/addExpense" element={<AddExpense />} />

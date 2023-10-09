@@ -1,5 +1,7 @@
 .navbar{
-    background-color: #bbdee7;
+    /* background-color: #bbdee7; */
+    /* background: linear-gradient(to bottom, #bbdee7, #f5f5f5); */
+    background: linear-gradient(to bottom, #bbdee7 40%, #f5f5f5 100%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,9 +18,16 @@
 }
 
 .nav-link{
-    padding-left: 3rem;
-    margin: 0;
+    margin-left: 3rem;
     cursor: pointer;
     color: #333333;
     text-decoration: none;
+    transition: 0.15s;
+    font-size: 1rem;
+    outline: none;
+}
+
+.nav-link:hover{
+    color: #3498db;
+    transform: scale(1.08);
 }

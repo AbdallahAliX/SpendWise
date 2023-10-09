@@ -1,0 +1,25 @@
+.navbar{
+    background-color: #e74c3c;
+    font-family: Montserrat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.7rem 3rem;
+}
+
+.title{
+    margin: 0;
+    color: #333333;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.navbar-links{
+    display: flex;
+}
+
+.nav-link{
+    padding-left: 3rem;
+    margin: 0;
+    cursor: pointer;
+}

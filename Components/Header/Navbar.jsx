@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './Navbar.css'
 
 export default function Navbar(){
@@ -7,9 +8,9 @@ export default function Navbar(){
         <header className='navbar'>
             <h1 className='title'>SpendWise</h1>
             <div className='navbar-links'>
-                <p className='nav-link'>Home</p>
-                <p className='nav-link'>Add Expense</p>
-                <p className='nav-link'>Settings</p>
+                <Link to='/' className='nav-link'>Home</Link>
+                <Link to='/addExpense' className='nav-link'>Add Expense</Link>
+                <Link to='/settings' className='nav-link'>Settings</Link>
             </div>
         </header>
     )
